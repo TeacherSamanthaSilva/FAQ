@@ -1,0 +1,62 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1{
+
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sanfona{
+
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sanfona-item{
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.sanfona-header{
+
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sanfona-content{
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.sanfona-item-active .sanfona-header{
+
+    background-color: #ddd;
+
+}
+
+.sanfona-item-active .sanfona-content{
+
+    transition: 0.5s;
+}
+
+.sanfona-item-closed .sanfona-content{
+
+    max-height: 0;
+    overflow: hidden;
+}
+
+.sanfona-content{
+
+    transition: 0.3s;
+}
