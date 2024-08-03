@@ -48,6 +48,7 @@ h1{
 .sanfona-item-active .sanfona-content{
 
     transition: 0.5s;
+    max-height: 1000px;
 }
 
 .sanfona-item-closed .sanfona-content{
